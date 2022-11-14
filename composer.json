@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Laracasts\\Flash": "src/"
+            "Fsuuaas\\Flash": "src/"
         },
         "files": [
             "src/Fsuuaas/Flash/functions.php"
