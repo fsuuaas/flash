@@ -1,0 +1,39 @@
+{
+    "name": "fsuuaas/flash",
+    "description": "Laracast Flash notification, Bootstrap 5",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sharif Uddin Ahamed",
+            "email": "fsuuaas@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "~5.0|^6.0|^7.0|^8.0|^9.0|^10.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "dev-master",
+        "phpunit/phpunit": "^6.1|^9.5.10"
+    },
+	"autoload": {
+        "psr-4": {
+            "Fsuuaas\\Flash\\": "src/"
+        },
+        "files": [
+            "src/Fsuuaas/Flash/functions.php"
+        ]
+    },
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Fsuuaas\\Flash\\FlashServiceProvider"
+            ],
+            "aliases": {
+                "Flash": "Fsuuaas\\Flash\\Flash"
+            }
+        }
+    }
+}
