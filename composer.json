@@ -18,7 +18,7 @@
         "phpunit/phpunit": "^6.1|^9.5.10"
     },
 	"autoload": {
-        "psr-4": {
+        "psr-0": {
             "Fsuuaas\\Flash\\": "src/"
         },
         "files": [
